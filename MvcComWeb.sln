@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcComEntities", "MvcComEnt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcComDatabase", "MvcComDatabase\MvcComDatabase.csproj", "{606F19B2-57A6-42DF-B9C2-EADEBC544104}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcComServices", "MvcComServices\MvcComServices.csproj", "{243ACCD1-9DC5-4BAB-87EB-A7EE5612D1E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{606F19B2-57A6-42DF-B9C2-EADEBC544104}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{606F19B2-57A6-42DF-B9C2-EADEBC544104}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{606F19B2-57A6-42DF-B9C2-EADEBC544104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243ACCD1-9DC5-4BAB-87EB-A7EE5612D1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243ACCD1-9DC5-4BAB-87EB-A7EE5612D1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243ACCD1-9DC5-4BAB-87EB-A7EE5612D1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243ACCD1-9DC5-4BAB-87EB-A7EE5612D1E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

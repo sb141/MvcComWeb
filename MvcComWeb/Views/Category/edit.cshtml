@@ -1,0 +1,23 @@
+﻿@model MvcComEntities.Category
+
+@{
+    ViewBag.Title = "edit";
+}
+
+<h2>Edit Category</h2>
+
+<form method="post">
+
+    <input name="ID" type="hidden" value="@Model.ID" />
+
+    <label>Name</label>
+    <input name="Name" value="@Model.Name" />
+
+    <br />
+    <lable>Description</lable>
+    <input name="Description" value="@Model.Description" />
+    <br />
+
+    <button type="submit">Save</button>
+</form>
+

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MvcComDatabase
 {
-    public class MvcComContext : DbContext
+    public class MvcComContext : DbContext,IDisposable
     {
 
         public MvcComContext() : base("MvcComConnection")
