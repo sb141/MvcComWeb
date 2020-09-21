@@ -27,7 +27,7 @@
     $("#saveBtn").click(function () {
         $.ajax({
             type:'POST',
-            url: '/Product/ProductsTable',
+            url: '/Product/Create',
             data: $("#createProduct").serialize()
         })
             .done(function (response) {
